@@ -30,9 +30,6 @@ Product.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: '10',
-      validate: {
-        equals: '10',
-      },
     },
     category_id: {
       type: DataTypes.INTEGER,
